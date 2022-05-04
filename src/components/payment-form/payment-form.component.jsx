@@ -11,6 +11,7 @@ import {
   PaymentFormContainer,
   FormContainer,
   PaymentButton,
+  TestCard,
 } from "./payment-form.styles";
 
 const PaymentForm = () => {
@@ -64,6 +65,10 @@ const PaymentForm = () => {
   return (
     <PaymentFormContainer>
       <FormContainer onSubmit={paymentHandler}>
+        <TestCard>
+          *Please enter a test card number. Set exp date to anytime in future*
+        </TestCard>
+
         <h2>Credit Card Payment: </h2>
         <CardElement />
         <PaymentButton

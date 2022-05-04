@@ -14,6 +14,11 @@ export const FormContainer = styled.form`
   min-width: 500px;
 `;
 
+export const TestCard = styled.h1`
+  color: red;
+  font-size: 16px;
+`;
+
 export const PaymentButton = styled(Button)`
   margin-left: auto;
   margin-top: 30px;

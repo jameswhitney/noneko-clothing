@@ -1,4 +1,4 @@
-import { FormInputLabel, Input, Group } from "./form-input.styles.jsx";
+import { FormInputLabel, Input, Group } from "./form-input.styles";
 
 // re-usable form component for any component which uses
 // forms for submission of data
